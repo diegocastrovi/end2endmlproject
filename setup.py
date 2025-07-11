@@ -18,7 +18,6 @@ name = 'end2endmlproject',
 version = '0.0.1',
 author = 'Diego Castro',
 author_email = 'diegocastrovi06@gmail.com',
-packages= find_packages(where='src'),
-package_dir={'': 'src'},
+packages= find_packages(),
 install_requires = get_requirements('requirements.txt')
 )
